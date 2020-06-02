@@ -1,0 +1,17 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Text Field Example",
+                "fields": [
+                    {
+                        "name": "my_string",
+                        "type": "text",
+                        "label": "Enter any text",
+                        "value": "aabbdss"
+                    }
+                ]
+            }
+        ]
+    }
+}
