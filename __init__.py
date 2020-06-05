@@ -33,9 +33,8 @@ class ChatScript(MycroftSkill):
                 return False
 
             # Variables for the payload
-            # url = "http://productionlb003-460876522.us-east-1.elb.amazonaws.\
-            #    com/BETTER/ui.php"
-            url = "http://localhost:1024/BETTER/ui.php"
+            url = "http://productionlb003-460876522.us-east-1.elb.amazonaws."
+            # url = "http://localhost:1024/BETTER/ui.php"
             user = 'Winston'
             # utterance = message.data.get('utterance')
             utterance = utterances
