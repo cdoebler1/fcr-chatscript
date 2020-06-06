@@ -39,8 +39,9 @@ class ChatScript(MycroftSkill):
             utterance = utterances
 
             # Constructing the payload
-            data = {user + '|' + utterance}
-            # data = {'user': user, 'send': '', 'message': utterance}
+            # data = {user + '|' + utterance}
+            data = {'user': user, 'send': '|', 'message': utterance}
+            print(data)
 
             # Initiating a POST request
             post = requests.post(url, data=data)
