@@ -33,14 +33,14 @@ class ChatScript(MycroftSkill):
 
             # Variables for the payload
             # url = "http://productionlb003-460876522.us-east-1.elb.amazonaws.com/BETTER/ui.php"
-            url = "http://localhost:1024/BETTER/ui.php"
+            url = "http://localhost:1024/SIMPLE/index.php"
             user = 'Winston'
             # utterance = message.data.get('utterance')
             utterance = utterances
 
             # Constructing the payload
             # data = {user + '|' + utterance}
-            data = {'user': user, 'send': '|', 'message': utterance}
+            data = {'user': user, 'send': '', 'message': utterance}
             print(data)
 
             # Initiating a POST request
