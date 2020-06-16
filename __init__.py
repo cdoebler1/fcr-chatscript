@@ -40,7 +40,7 @@ class ChatScript(MycroftSkill):
 
             # Constructing the payload
             # data = {user + '|' + utterance}
-            data = {'user': user, 'send': '', 'message': utterance}
+            data = {'user': user, 'send': '|', 'message': utterance}
             print(data)
 
             # Initiating a POST request
