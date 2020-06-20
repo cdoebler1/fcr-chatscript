@@ -35,7 +35,7 @@ class ChatScript(MycroftSkill):
             # url = "http://productionlb003-460876522.us-east-1.elb.amazonaws.com/BETTER/ui.php"
             url = "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php"
             # url = "http://localhost/BETTER/ui.php"
-            user = 'Winston'
+            user = 'Winston1'
             # utterance = message.data.get('utterance')
             utterance = utterances
 
