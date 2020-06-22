@@ -5,7 +5,7 @@
                 "name": "ChatScript Server",
                 "fields": [
                     {
-                        "name": "URL",
+                        "name": "url",
                         "type": "text",
                         "label": "Enter URL",
                         "value": "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php"
