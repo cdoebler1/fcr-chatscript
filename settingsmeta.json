@@ -8,9 +8,7 @@
                         "name": "URL",
                         "type": "text",
                         "label": "Enter URL",
-                        "value": "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php"
-                    }
-                    {
+                        "value": "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php",
                         "name": "Animatronic Name",
                         "type"" "text",
                         "label": "Enter the name of your animatronic",
