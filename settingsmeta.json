@@ -12,7 +12,7 @@
                     },
                     {
                         "name": "Animatronic Name",
-                        "type"" "text",
+                        "type": "text",
                         "label": "Enter the name of your animatronic",
                         "value": "Winston"
                     }
