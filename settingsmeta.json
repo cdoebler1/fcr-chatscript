@@ -11,7 +11,7 @@
                         "value": "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php"
                     },
                     {
-                        "name": "Animatronic Name",
+                        "name": "user",
                         "type": "text",
                         "label": "Enter the name of your animatronic",
                         "value": "Winston"

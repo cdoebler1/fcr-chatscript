@@ -26,6 +26,8 @@ class ChatScript(MycroftSkill):
         return False
 
     def converse(self, utterances, lang="en-us"):
+        url = self.settings.get('url')
+        user = self.settings.get('user')
         if self.chatting:
             # check if stop intent will trigger
             if self.voc_match(utterances[0], "StopKeyword") and self.voc_match(utterances[0], "ChatKeyword"):
@@ -33,9 +35,9 @@ class ChatScript(MycroftSkill):
 
             # Variables for the payload
             # url = "http://productionlb003-460876522.us-east-1.elb.amazonaws.com/BETTER/ui.php"
-            url = "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php"
+            # url = "http://cs003-1990125555.us-east-1.elb.amazonaws.com/BETTER/ui.php"
             # url = "http://localhost/BETTER/ui.php"
-            user = 'Winston1'
+            # user = 'Winston1'
             # utterance = message.data.get('utterance')
             utterance = utterances
 
